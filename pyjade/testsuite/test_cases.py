@@ -174,7 +174,7 @@ exclusions = {
     'Html': set([
         'mixins', 'mixin.blocks', 'layout', 'unicode',
         'attrs.object', 'code-block']),
-    'Mako': set(['layout', 'code-block']),
+    'Mako': set(['layout', 'code-block', 'named.blocks']),
     'Tornado': set(['layout']),
     'Jinja2': set(['layout']),
     'Jinja2-variable_start_string': set(['layout']),
