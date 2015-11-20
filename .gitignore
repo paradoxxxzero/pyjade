@@ -6,4 +6,4 @@ build/*
 *.DS_Store
 *.sublime-*
 .idea
-.cache/
+.cache
