@@ -178,7 +178,8 @@ exclusions = {
     'Tornado': set(['layout']),
     'Jinja2': set(['layout']),
     'Jinja2-variable_start_string': set(['layout']),
-    'Django': set(['layout', 'code-block'])}
+    'Django': set(['layout', 'code-block', 'expression'])}
+
 
 @with_setup(setup_func, teardown_func)
 def test_case_generator():
